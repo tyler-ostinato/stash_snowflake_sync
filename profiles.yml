@@ -1,0 +1,12 @@
+stash_snowflake_sync:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: kfb56964
+      user: TOSTINAT
+      role: ACCOUNTADMIN
+      database: STASH_SNOWFLAKE_SYNC
+      warehouse: COMPUTE_WH
+      schema: PUBLIC
+      threads: 4
